@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div>
+  <main
+    className="makeStyles-main-1"
+  >
+    Welcome to Kartik-Mohit
+    <div>
+      <h1>
+        Anywhere in your app!
+      </h1>
+      <form
+        onSubmit={[Function]}
+      >
+        <div>
+          <label>
+            Email: 
+          </label>
+          <input
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+          />
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          />
+        </div>
+        <div>
+          <label>
+            Pass: 
+          </label>
+          <input
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          disabled={false}
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer />
+</div>
+`;
